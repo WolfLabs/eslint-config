@@ -1,0 +1,22 @@
+# JetBrains IDEs
+.idea
+
+# NodeJS
+node_modules
+npm-debug.log
+
+# OSX
+.DS_Store
+
+# VI
+.*.swp
+*~
+
+# VS Code
+.vscode/settings.json
+
+# Code coverage
+coverage
+
+# npm bad ideas 
+package-lock.json
