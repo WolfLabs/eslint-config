@@ -1,6 +1,6 @@
 {
   "name": "@wolflabs/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint rules",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,10 @@
     "url": "git+ssh://git@github.com:WolfLabs/eslint-config.git"
   },
   "peerDependencies": {
-    "eslint": "^7.8.1",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.2",
-    "eslint-plugin-jest": "^24.0.0",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.2",
+    "eslint-plugin-react": "^7.26.1"
   }
 }
