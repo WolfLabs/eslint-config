@@ -8,7 +8,7 @@ module.exports = {
         es6: true
     },
     parserOptions: {
-        ecmaVersion: 9,
+        ecmaVersion: 2020,
         sourceType: 'module',
         ecmaFeatures: {
             jsx: true,
@@ -17,7 +17,7 @@ module.exports = {
     },
     settings: {
         react: {
-            version: '17.0.0'
+            version: '16.14.0'
         }
     },
     rules: {
@@ -62,11 +62,13 @@ module.exports = {
         'prefer-destructuring': 0,
         'object-curly-newline': ['error', { consistent: true }],
         camelcase: 0,
-        'import/extensions': ['error', { js: 'always', mjs: 'always', json: 'always' }],
+        'import/extensions': ['error', { js: 'always', mjs: 'always', cjs: 'always', json: 'always' }],
         'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
         'no-else-return': ['error', { allowElseIf: true }],
         'arrow-parens': [2, 'as-needed', { 'requireForBlockBody': true }],
-        'max-classes-per-file': 0
+        'max-classes-per-file': 0,
+        'no-promise-executor-return': 0,
+        'import/prefer-default-export': 0
     },
     globals: {
         Promise: false
